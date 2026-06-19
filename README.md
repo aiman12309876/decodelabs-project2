@@ -1,18 +1,24 @@
-# Automated Copywriting & Tone Transformer - DecodeLabs GenAI Project 2
+# Automated Irrigation Controller - DecodeLabs IoT Project 2
 
 ## What It Does
-Generates platform-specific marketing copy from a product description using Gemini AI.
+Simulates a closed-loop irrigation system that automatically waters plants when soil moisture drops below a threshold.
 
 ## Features
-- Dynamic prompt template with user variables
-- Platform-specific copy (LinkedIn, Instagram, Email)
-- Tone control (Professional, Casual, Playful, Formal)
-- Temperature and Top_P parameter tuning
+- Soil moisture sensor simulation (0-100%)
+- Threshold-based logic (30%)
+- Hysteresis buffer to prevent rapid toggling
+- Relay/pump control simulation
+- Real-time status display
+
+## Key Concepts Demonstrated
+- Analog-to-Digital Conversion (ADC)
+- Closed-loop feedback
+- Actuator control logic
+- Threshold gates with hysteresis
 
 ## How to Run
-1. Install: `pip install google-generativeai`
-2. Replace `YOUR_API_KEY_HERE` with your Gemini API key
-3. Run: `python copywriter.py`
+1. Run: `python irrigation_controller.py`
+2. Watch the system automatically water when soil is dry
 
 ## Author
 Aiman Zahoor

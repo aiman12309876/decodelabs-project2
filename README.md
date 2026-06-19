@@ -1,15 +1,19 @@
-# Expense Tracker - DecodeLabs Python Project 2
+# Automated Quality Inspection - DecodeLabs Robotics Project 2
 
 ## What It Does
-A command-line expense tracker that allows users to add expenses, view total, and list all expenses.
+Simulates an automated quality inspection system using computer vision.
 
 ## Features
-- Add expenses with amount and category
-- View total spent
-- View all expenses with categories
-- Reset all expenses
-- Input validation
+- Synthetic image generation (good/bad parts)
+- Image preprocessing (grayscale, Gaussian blur, thresholding)
+- Contour detection
+- Defect identification and bounding boxes
+- Pass/Fail logic
 
 ## How to Run
-```bash
-python expense_tracker.py
+1. Install: `pip install opencv-python numpy`
+2. Run: `python quality_inspection.py`
+3. View inspection results
+
+## Author
+Aiman Zahoor

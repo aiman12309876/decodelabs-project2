@@ -1,22 +1,18 @@
-# Decentralized Voting System - DecodeLabs Project 2 Task 5
+# Basic Encryption & Decryption - DecodeLabs Project 2 Task 7
 
 ## What It Does
-A Python simulation of a blockchain-based voting system with:
-- Proposal management
-- Voter registration
-- Vote casting (prevents double voting)
-- Results calculation
-- Vote hashing for security
+A simple Caesar cipher encryption and decryption tool.
 
 ## Features
-- Smart contract logic simulation
-- Double-voting prevention
-- Transparent results
-- Vote hashing
+- Encrypt text using Caesar cipher
+- Decrypt text using Caesar cipher
+- Supports uppercase, lowercase, and digits
+- User can choose shift key
 
 ## How to Run
-1. Run: `python voting_system.py`
-2. View the voting process
+1. Run: `python encryption.py`
+2. Choose option 1 to encrypt or 2 to decrypt
+3. Enter text and view result
 
 ## Author
 Aiman Zahoor

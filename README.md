@@ -1,21 +1,17 @@
-# Exploratory Data Analysis - DecodeLabs Project 2 Task 8
+# Fraud Detection Pipeline - DecodeLabs Project 2 Task 9
 
 ## What It Does
-Performs Exploratory Data Analysis on a sample dataset including:
-- Basic statistics
-- Outlier detection
-- Data visualization
-- Key insights
+Builds a classification model to detect fraudulent transactions in an imbalanced dataset.
 
 ## Features
-- Descriptive statistics (mean, median, etc.)
-- Outlier detection using IQR method
-- Visualizations: histograms, box plots, bar charts
-- Correlation analysis
+- Handles class imbalance using SMOTE
+- Trains Logistic Regression and Random Forest
+- Evaluates using Precision, Recall, and ROC-AUC
+- Compares model performance
 
 ## How to Run
-1. Install: `pip install pandas numpy matplotlib seaborn`
-2. Run: `python eda_analysis.py`
+1. Install: `pip install pandas numpy scikit-learn imbalanced-learn matplotlib seaborn`
+2. Run: `python fraud_detection.py`
 
 ## Author
 Aiman Zahoor

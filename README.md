@@ -1,28 +1,25 @@
-# Student Grade Calculator - DecodeLabs Java Project 2
+# Chain-of-Thought Logic Engine - DecodeLabs Prompt Engineering Project 2
 
 ## What It Does
-A Java application that calculates total marks, average percentage, and grade for a student.
+Forces AI to solve complex problems using step-by-step reasoning and self-correction.
 
 ## Features
-- Takes student name and number of subjects
-- Takes marks for each subject (0-100 validation)
-- Calculates total marks and average percentage
-- Assigns grade based on percentage
-- Displays results clearly
+- Explicit step-by-step reasoning
+- Self-correction phase
+- Tests against logic traps
+- Temperature set to 0 for deterministic output
 
-## Grading Scale
-| Percentage | Grade | Status |
-|------------|-------|--------|
-| 90-100% | A | Excellent |
-| 80-89% | B | Very Good |
-| 70-79% | C | Good |
-| 60-69% | D | Satisfactory |
-| 50-59% | E | Pass |
-| Below 50% | F | Fail |
+## Logic Puzzles Included
+1. Farmer and sheep riddle
+2. Bat and ball price problem
+3. 5-liter and 3-liter jug problem
+4. Brothers logic puzzle
+5. Fibonacci sequence
 
 ## How to Run
-1. Compile: `javac StudentGradeCalculator.java`
-2. Run: `java StudentGradeCalculator`
+1. Install: `pip install google-generativeai`
+2. Replace `YOUR_API_KEY_HERE` with your Gemini API key
+3. Run: `python cot_logic_engine.py`
 
 ## Author
 Aiman Zahoor

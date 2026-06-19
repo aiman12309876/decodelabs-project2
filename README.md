@@ -1,15 +1,22 @@
-# 3D Mechanical Part Modeling - DecodeLabs Project 2 Task 3
+# Decentralized Voting System - DecodeLabs Project 2 Task 5
 
 ## What It Does
-Creates a 3D mechanical gear model using Python and matplotlib, demonstrating:
-- 3D solid modeling
-- UCS (User Coordinate System) manipulation
-- Boolean operations (Union, Subtract)
-- 2D orthographic projections
+A Python simulation of a blockchain-based voting system with:
+- Proposal management
+- Voter registration
+- Vote casting (prevents double voting)
+- Results calculation
+- Vote hashing for security
+
+## Features
+- Smart contract logic simulation
+- Double-voting prevention
+- Transparent results
+- Vote hashing
 
 ## How to Run
-1. Install: `pip install numpy matplotlib`
-2. Run: `python mechanical_part.py`
+1. Run: `python voting_system.py`
+2. View the voting process
 
 ## Author
 Aiman Zahoor

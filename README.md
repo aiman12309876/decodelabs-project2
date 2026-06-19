@@ -1,18 +1,16 @@
-# Fundamental Valuation & Financial Modeling - DecodeLabs Stock Market Project 2
+# The Blueprint (Wireframing) - DecodeLabs UI/UX Project 2
 
 ## What It Does
-Calculates the intrinsic value of a company using financial modeling techniques.
+A complete wireframing document for an e-commerce landing page with checkout flow.
 
-## Features
-- Financial statement data input
-- Ratio analysis (P/E, P/B, EV/EBITDA)
-- Discounted Cash Flow (DCF) model
-- Competitor comparison
-- Investment recommendation
+## Contents
+- User Flow Map
+- Low-Fidelity Wireframes (Homepage, Product Detail, Cart, Checkout)
+- Design Principles
+- Key Improvements
 
-## How to Run
-1. Run: `python financial_modeling.py`
-2. View valuation results
+## How to View
+Open `wireframe_blueprint.md` in any text editor or markdown viewer.
 
 ## Author
 Aiman Zahoor
